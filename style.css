@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fafafa; /* Cor de fundo */
+    width: 100vw; /* Largura */
+    height: 100vh; /* Altura */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.insta-logo {
+   margin-top: -50px;
+   height: 170px;
+   padding: 10px;
+   width: 250px;
+    
+    
+
+}
+.telefone-usuario{
+    height: 500px;
+    padding: 12px;
+    width: 350px;
+    margin-left: -40px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    font-size: 15px;
+   
+}
+.senha{
+    height: 100px;
+    padding: 12px;
+    width: 350px;
+    margin-left: -40px;
+    font-size: 15px;
+    
+}
+.botao-entar{
+    height: 50px;
+    padding: 12px;
+    width: 350px;
+    margin-left:-40px;
+    border-radius:12px
+
+}
+.botao-entar{
+    font-size: 15px;
+}
+.imagem-face{
+    height: 30px;
+    margin-left:-09px;
+    width:40px;
+}
+
+.login-facebook {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    text-decoration: none;
+    color: #0095f6;
+    font-size: 14px; /* Tamanho da fonte */
+    font-weight: bold;
+    margin-top:5px;
+    cursor: pointer;
+    margin-left: -20px;
+    
+}
+.esqueceu-senha {
+    color: #385185;
+    text-align: center;
+    font-size: 15px; /* Tamanho da fonte */
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: -40px;
+    margin-left: -11px;
+
+}
+.or-divider{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    width: 350px;
+    height: 50px;
+    color: #515b5b;
+    margin-left: -41px;
+}
+
+.or-divider::before,
+.or-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+    margin: 1 15px;
+    
+}
+.or-texto{
+    font-size: 16px;
+    color: #515b5b;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+
+.caixa-cadastro {
+    width: 480px; 
+    border: 1px solid #dbdbdb;
+    padding: 20px 40px; 
+    background-color: #ffffff;
+    margin: 0;
+    color: #262626;
+    margin-bottom: -400px;
+    margin-left: -480px;
+    padding: -20px;
+    text-align: center;
+    height: 70px;
+    
+    
+
+}
+.caixa-cadastro a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+    height: 300px;
+    
+      
+}
+.conta{
+    height:500px;
+    width: 400px;
+    text-align: center;
+    padding-top: 6px;
+    
+}
+
+.Aplicativo{
+    margin-bottom: -550px;
+    margin-left: -325px;
+    color: #111111;
+    text-align: center;
+}
+.imagem-google{
+    width: 150px;
+    margin-left: -290px;
+    margin-bottom: -650px;
+    text-align: center;
+}
+.imagem-microsoft {
+    width: 126px;
+    margin-left: -50px;
+   margin-bottom:-650px;
+   text-align: center;
+   
+}
+
+
+
+.caixa-imagens {
+    position: relative;
+  
+    
+}
+.troca-imagem{
+    position: relative;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+
+.imagem-insta {
+    height: 690px;
+    position: absolute;
+    margin-left: -395px;
+    top: 27px;
+    width: 320px;
+    
+    
+
+}
+
+
+.imagem-celular {
+    width: 600px;
+    height: 800px;
+    margin-bottom: -100px;
+}
+
+
+
+
+.caixa-form {
+    width: 480px;
+    border: 1px solid #dbdbdb;
+    padding: 50px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 500px;
+    margin-bottom: 200px;
+    padding: 100px;
+    
+    
+}
+
+input {
+    height: 36px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+    padding-left: 5px;
+    color: #262626;
+}
+
+button {
+    background-color: #0095f6;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .caixa-form {
+        width: 90%;
+        padding: 20px;
+    }
+    .imagem-celular {
+        width: 100%;
+        height: auto;
+    }
+}
