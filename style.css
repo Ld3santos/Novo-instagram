@@ -1,240 +1,210 @@
+/* CSS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    background-color: #fafafa; /* Cor de fundo */
-    width: 100vw; /* Largura */
-    height: 100vh; /* Altura */
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.caixa-imagens, .caixa-form, .caixa-cadastro, .baixar-app {
+    margin: 20px;
+}
+.caixa-imagens {
+    position: relative;
+ 
+}
+.imagem-celular {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 1px;
+    position: relative;
+    margin: 350px;
+
+}
+.imagem-insta {
+    position: absolute;
+    top: 32px;
+    left: 173px;
+    width: 270px;
+    margin: 345px;
+   
+    
+}
+.troca-imagem {
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+    
+}
+.caixa-form {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    margin-bottom: 200px;
+    position: absolute;
+    right: 420px;
+    
+   
+}
+.botao-entrar{
+    position: relative;
+    top: 75px;
+    
+    
+   
+}
+.input-text{
+    position: relative;
+    top: 60px;
+    
+}
+.input-text {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+.botao-entrar {
+    width: 90%;
+    padding: 10px;
+    background-color: #1babe9;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size:17px ;
+    
+    
+   
+}
+.or-divider {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: sans-serif;
-}
-.insta-logo {
-   margin-top: -50px;
-   height: 170px;
-   padding: 10px;
-   width: 250px;
-    
-    
-
-}
-.telefone-usuario{
-    height: 500px;
-    padding: 12px;
-    width: 350px;
-    margin-left: -40px;
-    margin-top: 60px;
-    margin-bottom: 5px;
-    font-size: 15px;
-   
-}
-.senha{
-    height: 100px;
-    padding: 12px;
-    width: 350px;
-    margin-left: -40px;
-    font-size: 15px;
-    
-}
-.botao-entar{
-    height: 50px;
-    padding: 12px;
-    width: 350px;
-    margin-left:-40px;
-    border-radius:12px
-
-}
-.botao-entar{
-    font-size: 15px;
-}
-.imagem-face{
-    height: 30px;
-    margin-left:-09px;
-    width:40px;
-}
-
-.login-facebook {
-    display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
-    text-decoration: none;
-    color: #0095f6;
-    font-size: 14px; /* Tamanho da fonte */
-    font-weight: bold;
-    margin-top:5px;
-    cursor: pointer;
-    margin-left: -20px;
-    
-}
-.esqueceu-senha {
-    color: #385185;
-    text-align: center;
-    font-size: 15px; /* Tamanho da fonte */
-    cursor: pointer;
-    float: left;
-    text-decoration: none;
-    margin-top: 20px;
-    margin-bottom: -40px;
-    margin-left: -11px;
-
-}
-.or-divider{
-    display: flex;
-    align-items: center;
     margin: 15px 0;
-    width: 350px;
-    height: 50px;
-    color: #515b5b;
-    margin-left: -41px;
+    color: #8e8e8e;
+    top:90px ;
+    position: relative;
+    
 }
 
-.or-divider::before,
-.or-divider::after {
-    content: "";
-    flex: 1;
+.or-divider .linha {
+    flex: 0.45;
     height: 1px;
     background-color: #dbdbdb;
-    margin: 1 15px;
+   
+    
     
 }
-.or-texto{
-    font-size: 16px;
-    color: #515b5b;
+.or-divider .or-texto {
     padding: 0 10px;
-    font-weight: bold;
+}
+.login-facebook {
+    color: #087eb1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+.insta-logo{
+    width: 250px;
+    position: relative;
+    top: 30px;
+    
+    
+}
+.esqueceu-senha{
+    position: relative;
+    top: 100px;
+    
+}
+.imagem-face{
+    position:relative;
+    bottom: 1px;
+    width: 35px;
+    left: 5px;
+}
+.login-facebook{
+    position:relative;
+    top: 100px;
+    right: 6px;
+    
+}
+.Obtenha{
+    position: relative;
+    right: 500px;
+    margin-top: 300px;
+}
+.imagem-microsoft{
+    position: relative;
+    right: 415px;
+    top: 10px;
+    
+    
+}
+.imagem-google{
+    position: relative;
+    right:560px;
+    bottom: 50px;
+    height: 47px;
+    
 }
 
-
+.imagem-face {
+    margin-right: 10px;
+}
+.esqueceu-senha {
+    color: #00376b;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
 .caixa-cadastro {
-    width: 480px; 
+    width: 500px;
+    padding: 20px;
+    background-color: #fff;
     border: 1px solid #dbdbdb;
-    padding: 20px 40px; 
-    background-color: #ffffff;
-    margin: 0;
-    color: #262626;
-    margin-bottom: -400px;
-    margin-left: -480px;
-    padding: -20px;
     text-align: center;
-    height: 70px;
-    
-    
-
+    margin-top: 500px;
+    right: 150px;
+    position: relative;
+    bottom: 35px;
 }
 .caixa-cadastro a {
     color: #0095f6;
     text-decoration: none;
     font-weight: bold;
-    height: 300px;
-    
-      
-}
-.conta{
-    height:500px;
-    width: 400px;
-    text-align: center;
-    padding-top: 6px;
-    
-}
-
-.Aplicativo{
-    margin-bottom: -550px;
-    margin-left: -325px;
-    color: #111111;
-    text-align: center;
-}
-.imagem-google{
-    width: 150px;
-    margin-left: -290px;
-    margin-bottom: -650px;
-    text-align: center;
-}
-.imagem-microsoft {
-    width: 126px;
-    margin-left: -50px;
-   margin-bottom:-650px;
-   text-align: center;
    
 }
-
-
-
-.caixa-imagens {
+.baixar-app {
+    text-align: center;
+    margin-top: 400px;
     position: relative;
-  
-    
 }
-.troca-imagem{
-    position: relative;
-    opacity: 0;
-    transition: opacity 3s ease-in-out;
-}
-
-.imagem-insta {
-    height: 690px;
-    position: absolute;
-    margin-left: -395px;
-    top: 27px;
-    width: 320px;
-    
-    
-
-}
-
-
-.imagem-celular {
-    width: 600px;
-    height: 800px;
-    margin-bottom: -100px;
-}
-
-
-
-
-.caixa-form {
-    width: 480px;
-    border: 1px solid #dbdbdb;
-    padding: 50px 40px 20px 40px;
-    display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
-    height: 500px;
-    margin-bottom: 200px;
-    padding: 100px;
-    
-    
-}
-
-input {
-    height: 36px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: 1px solid #dbdbdb;
-    outline: none;
-    padding-left: 5px;
-    color: #262626;
-}
-
-button {
-    background-color: #0095f6;
-    color: #ffffff;
-    border-radius: 5px;
-    border: none;
-    height: 30px;
-    margin-top: 20px;
-    cursor: pointer;
+.icones-app img {
+    width: 136px;
+    margin: 5px;
 }
 @media (max-width: 768px) {
     body {
         flex-direction: column;
         padding: 10px;
     }
-    .caixa-form {
+    .caixa-form{
         width: 90%;
-        padding: 20px;
+        padding: auto;
     }
     .imagem-celular {
         width: 100%;

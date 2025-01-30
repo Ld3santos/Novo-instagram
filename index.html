@@ -9,38 +9,40 @@
 <body>
     <!-- Contêiner principal -->
     <div class="caixa-imagens">
-        <img src="img/celular.png" class="imagem-celular">
-        <img src="img/insta1.png" class="imagem-insta">
-        <img src="img/insta2.png" class="imagem-insta troca-imagem">
+        <img src="img/celular.png" class="imagem-celular" alt="celular">
+        <img src="img/insta1.png" class="imagem-insta" alt="Instagram1">
+        <img src="img/insta2.png" class="imagem-insta troca-imagem" alt="Instagram2">
     </div>
 
     <div class="caixa-form">
-        <img src="img/insta-logo.png" class="insta-logo">
-
-        <input placeholder="Telefone, nome de usuário ou email" class="telefone-usuario">
-        <input placeholder="Senha" type="password" class="senha">
-        
-        <button class="botao-entar">Entrar</button>
+        <img src="img/insta-logo.png" class="insta-logo" alt="Instagram Logo">
+        <input type="text" placeholder="Telefone, nome de usuário ou email" class="input-text">
+        <input type="password" placeholder="Senha" class="input-text">
+        <button class="botao-entrar">Entrar</button>
 
         <div class="or-divider">
             <span class="linha"></span>
             <span class="or-texto">OU</span>
+            <span class="linha"></span>
         </div>
 
         <a href="https://www.facebook.com" class="login-facebook">
-            <img src="img/facebook.png" class="imagem-face">
-            Entrar com o Facebook
+            <img src="img/facebook.png" class="imagem-face" alt="Facebook"> Entrar com o Facebook
         </a>
         <a href="https://www.instagram.com/accounts/password/reset/" class="esqueceu-senha">Esqueceu a senha?</a>
     </div>
 
     <div class="caixa-cadastro">
-        <p class="conta">Não tem uma conta? <a href="link-para-cadastro.html">Cadastre-se</a></p>
+        <p class="conta">Não tem uma conta? <a href="#">Cadastre-se</a></p>
     </div>
 
-    <a class="Aplicativo">Obtenha o aplicativo.</a>
-    <img src="img/microsoft.png" class="imagem-microsoft">
-    <img src="img/google.png" class="imagem-google">
+    <div class="baixar-app">
+        <p class="Obtenha">Obtenha o aplicativo.</p>
+        <div class="icones-app">
+            <img src="img/microsoft.png" class="imagem-microsoft" alt="Baixar na Microsoft Store">
+            <img src="img/google.png" class="imagem-google" alt="Baixar no Google Play">
+        </div>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
