@@ -1,9 +1,7 @@
-/* CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+
+
+/* Seus estilos personalizados seguem abaixo */
 body {
     background-color: #fafafa;
     display: flex;
@@ -16,100 +14,86 @@ body {
 .caixa-imagens, .caixa-form, .caixa-cadastro, .baixar-app {
     margin: 20px;
 }
-.caixa-imagens {
-    position: relative;
- 
-}
+
+
 .imagem-celular {
-    width: 100%;
+    width: 200%;
     max-width: 500px;
     height: auto;
-    margin-top: 1px;
-    position: relative;
-    margin: 350px;
-
+    margin-left: 400px;
+    margin-top: 60px ;
 }
+
 .imagem-insta {
     position: absolute;
-    top: 32px;
-    left: 173px;
+    top: 100px;
+    left: 597px;
     width: 270px;
-    margin: 345px;
-   
+    
     
 }
+
 .troca-imagem {
     opacity: 0;
     transition: opacity 3s ease-in-out;
-    
 }
+
 .caixa-form {
-    width: 400px;
-    height: 500px;
-    padding: 20px;
+    height: 450px;
+    max-width: 390px;
     background-color: #fff;
     border: 1px solid #dbdbdb;
     text-align: center;
-    margin-bottom: 200px;
     position: absolute;
-    right: 420px;
-    
+    margin-left: 600px;
+    top: 50px;
    
+
 }
-.botao-entrar{
-    position: relative;
-    top: 75px;
-    
-    
-   
-}
-.input-text{
-    position: relative;
-    top: 60px;
-    
-}
+
 .input-text {
-    width: 90%;
+    width: 80%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #dbdbdb;
     border-radius: 3px;
+    position: relative;
+    top: 60px;
 }
+
 .botao-entrar {
-    width: 90%;
+    width: 85%;
     padding: 10px;
     background-color: #1babe9;
     color: #fff;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-size:17px ;
-    
-    
-   
+    font-size: 17px;
+    position: relative;
+    top: 75px;
 }
+
 .or-divider {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 15px 0;
     color: #8e8e8e;
-    top:90px ;
+    top: 90px;
     position: relative;
-    
 }
 
 .or-divider .linha {
     flex: 0.45;
     height: 1px;
     background-color: #dbdbdb;
-   
-    
-    
 }
+
 .or-divider .or-texto {
     padding: 0 10px;
 }
+
 .login-facebook {
     color: #087eb1;
     text-decoration: none;
@@ -117,97 +101,111 @@ body {
     align-items: center;
     justify-content: center;
     margin: 15px 0;
-}
-.insta-logo{
-    width: 250px;
     position: relative;
-    top: 30px;
-    
-    
-}
-.esqueceu-senha{
-    position: relative;
-    top: 100px;
-    
-}
-.imagem-face{
-    position:relative;
-    bottom: 1px;
-    width: 35px;
-    left: 5px;
-}
-.login-facebook{
-    position:relative;
-    top: 100px;
+    top: 90px;
     right: 6px;
-    
-}
-.Obtenha{
-    position: relative;
-    right: 500px;
-    margin-top: 300px;
-}
-.imagem-microsoft{
-    position: relative;
-    right: 415px;
-    top: 10px;
-    
-    
-}
-.imagem-google{
-    position: relative;
-    right:560px;
-    bottom: 50px;
-    height: 47px;
-    
 }
 
-.imagem-face {
-    margin-right: 10px;
+.insta-logo {
+    width: 250px;
+    position: relative;
+    top: 50px;
 }
+
 .esqueceu-senha {
     color: #00376b;
     text-decoration: none;
     font-size: 14px;
     margin-top: 10px;
+    position: relative;
+    top: 85px;
+    right: 10px;
 }
+
+.imagem-face {
+    bottom: 1px;
+    width: 35px;
+   
+}
+
+.Obtenha {
+    position: relative;
+    right: 380px;
+    margin-top: 220px;
+
+}
+
+.imagem-microsoft {
+    position: relative;
+    right: 295px;
+    bottom: 10px;
+   
+}
+
+.imagem-google {
+    position: relative;
+    right: 440px;
+    bottom: 70px;
+    height: 47px;
+}
+
 .caixa-cadastro {
-    width: 500px;
+    width: 363px;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #dbdbdb;
     text-align: center;
-    margin-top: 500px;
-    right: 150px;
-    position: relative;
-    bottom: 35px;
+    margin-top: 380px;
+    margin-right: 21px;
+    height: 20px;
+   
 }
+.caixa-cadastro p{
+    position: relative;
+    bottom: 15PX;
+}
+
 .caixa-cadastro a {
     color: #0095f6;
     text-decoration: none;
     font-weight: bold;
-   
+    
 }
+
 .baixar-app {
     text-align: center;
     margin-top: 400px;
-    position: relative;
+    
 }
+
 .icones-app img {
     width: 136px;
     margin: 5px;
 }
+
 @media (max-width: 768px) {
     body {
         flex-direction: column;
         padding: 10px;
     }
-    .caixa-form{
-        width: 90%;
-        padding: auto;
-    }
+
     .imagem-celular {
         width: 100%;
         height: auto;
+    }
+
+    .caixa-form {
+        width: 90%;
+        padding: 20px;
+        right: 0;
+    }
+
+    .caixa-cadastro {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .baixar-app {
+        margin-top: 20px;
     }
 }
